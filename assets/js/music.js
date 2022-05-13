@@ -9,11 +9,8 @@ const player = document.querySelector('.player'),
       cover = document.querySelector('.cover__img'),
       imgSrc = document.querySelector('.img__src')
 
-      //Начинаем с песен.
-//названия песен
 const songs = ['Shine Bird Space', 'Lovely Nature', 'Enigma']
 
-//песня по умолчанию
 
 let songIndex = 0
 
@@ -88,17 +85,13 @@ function updateProgress(e){
 }
 audio.addEventListener('timeupdate' , updateProgress)
 
-//peremotochka
+
 function setProgress(e){
     const width = this.clientWidth
     const clickCoordinateX = e.offsetX 
     const duration = audio.duration
-
     audio.currentTime = (clickCoordinateX / width) * duration
-
     console.log(clickCoordinateX)
-
-
 }
 progressContainer.addEventListener('click', setProgress)
 

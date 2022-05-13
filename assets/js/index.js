@@ -1,8 +1,8 @@
-var text = "Добро пожаловать на MMFBeats";
-var delay = 100; // cкорость
-var elem = document.getElementById("result");
+let text = "Добро пожаловать на MMFBeats";
+let delay = 100; // cкорость
+let elem = document.getElementById("result");
  
-var print_text = function(text, elem, delay) {
+let print_text = function(text, elem, delay) {
     if(text.length > 0) {
         elem.innerHTML += text[0];
         setTimeout(
@@ -23,3 +23,4 @@ $(document).on('click', '.intro a[href^="#"]', function (event) {
     }, 500);
 });
 
+document.getElementById("inputs").innerHTML="";

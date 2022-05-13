@@ -41,22 +41,58 @@
     line-height: 1;
  }
  .item-icon.photo:before {
-    content: "\f030";
+   display: flex;
+   content: "";
+   width: 40px;
+   height: 56px;
+   background-image: url(../images/leaf.png);
+   background-size: contain;
+   background-repeat: no-repeat;
  }
  .item-icon.video:before {
-    content: "\f03d";
+    display: flex;
+    content: "";
+    width: 40px;
+    height: 56px;
+    background-image: url(../images/sun.png);
+    background-size: contain;
+    background-repeat: no-repeat;
  }
  .item-icon.gift:before {
-    content: "\f06b";
+   display: flex;
+   content: "";
+   width: 40px;
+   height: 56px;
+   background-image: url(../images/clouds.png);
+   background-size: contain;
+   background-repeat: no-repeat;
  }
  .item-icon.group:before {
-    content: "\f0c0";
+   display: flex;
+   content: "";
+   width: 40px;
+   height: 56px;
+   background-image: url(../images/mountain.png);
+   background-size: contain;
+   background-repeat: no-repeat;
  }
  .item-icon.tree:before {
-    content: "\f1bb";
+   display: flex;
+   content: "";
+   width: 40px;
+   height: 56px;
+   background-image: url(../images/plant-2.png);
+   background-size: contain;
+   background-repeat: no-repeat;
  }
  .item-icon.anchor:before {
-    content: "\f13d";
+   display: flex;
+   content: "";
+   width: 40px;
+   height: 56px;
+   background-image: url(../images/drop.png);
+   background-size: contain;
+   background-repeat: no-repeat;
  }
  .post-item:hover .item-icon, .post-item:hover .item-body h3, .post-item:hover .item-body p {
     transform: translateY(-8px);
